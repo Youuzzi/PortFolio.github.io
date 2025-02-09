@@ -315,7 +315,10 @@ form .btn2{
 }
 
 /* ----------------CSS Screen HP---------------- */
-@media screen and (max-width: 600px) {
+@media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
     #header {
         background-image: url('./images/Backgroundd12.jpg');
         background-size: cover;
