@@ -315,9 +315,11 @@ form .btn2{
 }
 
 /* ----------------CSS Screen HP---------------- */
-nav .fas{
+nav .fa-solid{
     display: none;
 }
+   
+
 
 @media screen and (max-width: 600px) {
     #header {
