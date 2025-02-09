@@ -315,13 +315,19 @@ form .btn2{
 }
 
 /* ----------------CSS Screen HP---------------- */
-@media (max-width: 450px) {
-    html {
-      font-size: 55%;
-    }
+nav .fas{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
     #header {
-        background-image: url('./images/Backgroundd12.jpg');
-        background-size: cover;
-        background-position: center;
+        background-image: url(images/Backgroundd12.jpg);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
     }
 }
