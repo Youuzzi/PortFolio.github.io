@@ -313,3 +313,8 @@ form .btn2{
 .copyright i{
     color: #E3C565;
 }
+
+/* ----------------CSS Screen HP---------------- */
+@media only screen adn (max-with: 600px){
+    
+}
